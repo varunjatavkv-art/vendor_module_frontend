@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGoogle } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const VSignup = () => {
   return (
@@ -50,7 +51,7 @@ const VSignup = () => {
         <FaGoogle /> <p className="font-semibold text-sm">Login with Google</p>
       </div>
       <p className="pt-2 text-sm font-semibold text-right">
-        Already a User ? <span className="text-blue-500 font-bold pl-2">LOGIN</span>
+        Already a User ? <Link to={"/login"} className="text-blue-500 font-bold pl-2">LOGIN</Link>
       </p>
     </div>
   );

@@ -1,12 +1,11 @@
+import { Outlet } from "react-router-dom";
 import "./App.css";
-import VSignup from "./components/vendor/VSignup";
+
 
 function App() {
   return (
     <>
-      
-       <VSignup/>
-      
+      <Outlet/>
     </>
   );
 }
